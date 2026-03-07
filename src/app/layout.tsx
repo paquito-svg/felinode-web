@@ -7,9 +7,36 @@ import { Cat } from "lucide-react";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://felinode.com'),
   title: "FeliNode - Aprende inglés de forma inteligente",
   description: "Aprende inglés de forma eficiente, offline y con IA interactiva.",
-  keywords: ["Aprender Inglés", "Offline", "AI", "FeliNode", "Gamification"],
+  keywords: ["Aprender Inglés", "Offline", "AI", "FeliNode", "Gamification", "React Native", "Educación"],
+  authors: [{ name: "Fabrizio Fernando Aguilar Coro" }],
+  creator: "Fabrizio Fernando Aguilar Coro",
+  openGraph: {
+    type: "website",
+    locale: "es_BO",
+    url: "/",
+    title: "FeliNode - Aprende inglés de forma inteligente",
+    description: "Aprende inglés de forma eficiente, offline y con IA interactiva.",
+    siteName: "FeliNode",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "FeliNode - Aprende inglés de forma inteligente",
+    description: "Aprende inglés de forma eficiente, offline y con IA interactiva.",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
 };
 
 export default function RootLayout({
