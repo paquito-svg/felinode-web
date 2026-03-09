@@ -57,6 +57,7 @@ export default function RootLayout({
               <Link href="/#features" className="nav-link">Características</Link>
               <Link href="/privacy" className="nav-link">Privacidad</Link>
               <Link href="/terms" className="nav-link">Términos</Link>
+              <Link href="/eliminar-cuenta" className="nav-link">Eliminar Cuenta</Link>
               <a href="mailto:fernandoaguilarcoro@gmail.com" className="nav-link">Soporte</a>
             </nav>
           </div>
@@ -76,6 +77,7 @@ export default function RootLayout({
             <div className="footer-links">
               <Link href="/privacy" className="footer-link">Política de Privacidad</Link>
               <Link href="/terms" className="footer-link">Términos y Condiciones</Link>
+              <Link href="/eliminar-cuenta" className="footer-link">Eliminar Cuenta</Link>
               <a href="mailto:fernandoaguilarcoro@gmail.com" className="footer-link">Contacto: fernandoaguilarcoro@gmail.com</a>
             </div>
 
