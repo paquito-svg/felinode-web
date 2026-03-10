@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-
+import WebDeletion from "./WebDeletion";
 export const metadata: Metadata = {
     title: "Eliminación de Cuenta - FeliNode",
     description: "Pasos detallados para eliminar tu cuenta y datos asociados en FeliNode.",
@@ -26,19 +26,14 @@ export default function AccountDeletionPage() {
                     <li style={{ marginBottom: '0.5rem' }}>Confirma tu decisión. Se te cerrará la sesión inmediatamente y tus datos serán eliminados permanentemente.</li>
                 </ol>
 
-                <h2>Opción 2: Solicitar eliminación por correo electrónico</h2>
-                <p>Si ya no tienes la aplicación instalada o no puedes acceder a tu cuenta, puedes solicitar la eliminación manual de tus datos contactando a nuestro equipo de soporte.</p>
-                <ol style={{ paddingLeft: '1.5rem', marginBottom: '1.5rem', color: '#a1a1aa', lineHeight: '1.7' }}>
-                    <li style={{ marginBottom: '0.5rem' }}>Envía un correo electrónico a <strong>fernandoaguilarcoro@gmail.com</strong> desde la dirección de correo asociada a tu cuenta.</li>
-                    <li style={{ marginBottom: '0.5rem' }}>El asunto del correo debe ser: <strong>"Solicitud de Eliminación de Cuenta FeliNode"</strong>.</li>
-                    <li style={{ marginBottom: '0.5rem' }}>En el cuerpo del mensaje, indica explícitamente que deseas que se elimine tu cuenta y todos los datos asociados a la misma.</li>
-                    <li style={{ marginBottom: '0.5rem' }}>Nuestro equipo procesará tu solicitud y eliminará los datos en un plazo máximo de 7 días hábiles, confirmándote por la misma vía una vez completado el proceso.</li>
-                </ol>
+                <h2>Opción 2: Eliminar cuenta desde esta página web</h2>
+                <p>Si no tienes la aplicación a mano, puedes iniciar sesión aquí mismo y ejecutar la eliminación automática.</p>
+                <WebDeletion />
 
-                <h2>¿Qué datos se eliminan?</h2>
+                <h2 style={{ marginTop: '3rem' }}>¿Qué datos se eliminan?</h2>
                 <p>Al eliminar tu cuenta, se borrarán permanentemente y de manera irrecuperable de nuestros servidores de Supabase los siguientes datos:</p>
                 <ul>
-                    <li>Tu información de perfil (correo electrónico, nombre de usuario, etc).</li>
+                    <li>Tu información de perfil (correo electrónico, nombre de usuario).</li>
                     <li>Tu progreso de aprendizaje, monedas, rachas y estadísticas ("Stats" y "Lessons").</li>
                     <li>Cualquier información de sesión o datos sincronizados en la nube.</li>
                 </ul>
