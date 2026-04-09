@@ -7,23 +7,23 @@ import { Cat } from "lucide-react";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://felinode.com'),
-  title: "FeliNode - Aprende inglés de forma inteligente",
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://nekoenglish.com'),
+  title: "nekoEnglish - Aprende inglés de forma inteligente",
   description: "Aprende inglés de forma eficiente, offline y con IA interactiva.",
-  keywords: ["Aprender Inglés", "Offline", "AI", "FeliNode", "Gamification", "React Native", "Educación"],
+  keywords: ["Aprender Inglés", "Offline", "AI", "nekoEnglish", "Gamification", "React Native", "Educación"],
   authors: [{ name: "Fabrizio Fernando Aguilar Coro" }],
   creator: "Fabrizio Fernando Aguilar Coro",
   openGraph: {
     type: "website",
     locale: "es_BO",
     url: "/",
-    title: "FeliNode - Aprende inglés de forma inteligente",
+    title: "nekoEnglish - Aprende inglés de forma inteligente",
     description: "Aprende inglés de forma eficiente, offline y con IA interactiva.",
-    siteName: "FeliNode",
+    siteName: "nekoEnglish",
   },
   twitter: {
     card: "summary_large_image",
-    title: "FeliNode - Aprende inglés de forma inteligente",
+    title: "nekoEnglish - Aprende inglés de forma inteligente",
     description: "Aprende inglés de forma eficiente, offline y con IA interactiva.",
   },
   robots: {
@@ -51,7 +51,7 @@ export default function RootLayout({
           <div className="container nav">
             <Link href="/" className="logo">
               <Cat className="logo-icon" size={28} />
-              FeliNode
+              nekoEnglish
             </Link>
             <nav className="nav-links">
               <Link href="/#features" className="nav-link">Características</Link>
@@ -71,7 +71,7 @@ export default function RootLayout({
           <div className="container footer-content">
             <div className="logo" style={{ justifyContent: "center" }}>
               <Cat className="logo-icon" size={24} />
-              FeliNode
+              nekoEnglish
             </div>
 
             <div className="footer-links">
@@ -82,7 +82,7 @@ export default function RootLayout({
             </div>
 
             <div className="footer-developer">
-              &copy; {new Date().getFullYear()} FeliNode. Bolivia, Sucre.
+              &copy; {new Date().getFullYear()} nekoEnglish. Bolivia, Sucre.
               <br />
               Desarrollado por Fabrizio Fernando Aguilar Coro.
             </div>

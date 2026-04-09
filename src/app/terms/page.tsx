@@ -1,8 +1,8 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'Términos y Condiciones | FeliNode',
-    description: 'Términos y Condiciones de uso de la aplicación FeliNode.',
+    title: 'Términos y Condiciones | nekoEnglish',
+    description: 'Términos y Condiciones de uso de la aplicación nekoEnglish.',
 };
 
 export default function Terms() {
@@ -18,7 +18,7 @@ export default function Terms() {
                 </p>
 
                 <p>
-                    Al descargar o utilizar la aplicación móvil FeliNode, estos términos se aplicarán automáticamente a usted;
+                    Al descargar o utilizar la aplicación móvil nekoEnglish, estos términos se aplicarán automáticamente a usted;
                     por lo tanto, asegúrese de leerlos cuidadosamente antes de usar la aplicación. No se le permite
                     copiar o modificar la aplicación, parte de ella o nuestras marcas de ninguna manera. No debe
                     intentar extraer el código fuente, ni debe intentar traducir la aplicación a otros idiomas
@@ -27,19 +27,19 @@ export default function Terms() {
 
                 <h2>1. Uso de la Aplicación</h2>
                 <p>
-                    FeliNode es una aplicación de aprendizaje desarrollada por Fabrizio Fernando Aguilar Coro.
+                    nekoEnglish es una aplicación de aprendizaje desarrollada por Fabrizio Fernando Aguilar Coro.
                     La aplicación se proporciona "tal cual" y no podemos garantizar que su uso nunca tendrá
                     interrupciones o que estará completamente libre de errores.
                 </p>
                 <p>
                     Usted es el responsable de mantener seguro su dispositivo Android, así como la conexión o los
-                    datos que el dispositivo use para acceder a los servicios de FeliNode (incluyendo la
+                    datos que el dispositivo use para acceder a los servicios de nekoEnglish (incluyendo la
                     sincronización con Supabase u otros servicios en internet).
                 </p>
 
                 <h2>2. Modificaciones al Servicio y Tarifas</h2>
                 <p>
-                    FeliNode está sujeto a constantes actualizaciones de contenido y funcionalidad orientadas
+                    nekoEnglish está sujeto a constantes actualizaciones de contenido y funcionalidad orientadas
                     a mejorar su modelo educativo de inteligencia artificial. Nos reservamos el derecho de
                     realizar cambios en la aplicación o establecer cargos por algunos servicios en un futuro (como AdMob),
                     de lo cual lo mantendremos debidamente informado.

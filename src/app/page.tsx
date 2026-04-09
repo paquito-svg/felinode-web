@@ -6,7 +6,7 @@ export default function Home() {
   const features = [
     {
       title: "Modo 100% Offline",
-      description: "Descarga tus lecciones y practica sin necesidad de conexión a internet. FeliNode sincronizará tu progreso en la nube cuando vuelvas a estar conectado gracias a su tecnología local-first.",
+      description: "Descarga tus lecciones y practica sin necesidad de conexión a internet. nekoEnglish sincronizará tu progreso en la nube cuando vuelvas a estar conectado gracias a su tecnología local-first.",
       Icon: WifiOff
     },
     {
@@ -30,7 +30,7 @@ export default function Home() {
     <>
       <section className="container hero">
         <h1 className="hero-title">
-          FeliNode <br />
+          nekoEnglish <br />
           <span style={{ fontSize: "0.6em", fontWeight: 600, color: "var(--primary)" }}>
             Aprende inglés de forma eficiente
           </span>
